@@ -1,2 +1,2 @@
 # SlantedGlassesEngine
-Simple Game Engine To Create Text Based Games
+Simple Game Engine To Create Text Based Console Games
