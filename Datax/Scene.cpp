@@ -10,7 +10,7 @@ void Scene::Init()
 
 flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
 {
-
+    bFunctions->bFlickerSleep();
     hasMenu = false;
 
     switch (scene)

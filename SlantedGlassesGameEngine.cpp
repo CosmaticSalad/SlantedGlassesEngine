@@ -32,7 +32,7 @@ int main()
 
         PrintScene(scene, MenuInput);
 
-        gScene.bFunctions.bFlickerSleep();
+        
 
 
         if (isMenu)
@@ -41,6 +41,7 @@ int main()
         }
         else
         {
+            gScene.bFunctions.bFlickerSleep();
             gScene.bFunctions.bPause();
         }
 

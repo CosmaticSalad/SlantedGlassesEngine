@@ -34,7 +34,7 @@
       <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
     <ClCompile Include="Datax\Scene.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
