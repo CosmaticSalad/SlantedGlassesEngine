@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{83985f2e-9399-4922-9e5c-026e3317d28b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Base Data">
+      <UniqueIdentifier>{2656e510-2fc4-4f9f-a2bd-8d3191356d88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SlantedGlassesGameEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Datax\GameBaseData.cpp">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Datax\GameText.cpp">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Datax\UI.cpp">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Datax\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Datax\GameBaseData.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\GameText.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\UI.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\Scene.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
