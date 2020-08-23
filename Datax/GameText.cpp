@@ -1,4 +1,6 @@
+
 #include"GameBaseData.h"
+
 #include "GameText.h"
 
 
@@ -11,23 +13,28 @@ bool GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uch
 
     switch (GTscene)
     {
-    case 0:
+
+    case (uint)0:
 
         needMenu = gtCase0(bFunctions);
+
         break;
 
-    case 1:
+    case (uint)1:
 
         needMenu = gtCase1(bFunctions);
+
         break;
 
-    case 2:
+    case (uint)2:
 
 
         needMenu = gtCase2(bFunctions);
+
         break;
 
     default:
+
 
         break;
 
@@ -42,8 +49,11 @@ flag GameText::gtCase0(BasicFunctions* bFunctions )
 {
 
     bFunctions->SetCursor_GameText();
+
     bFunctions->PrintString("- Scene One",true);
+
     bFunctions->PrintString("How Does Your Game Begin?");
+
 
     return false;
 
@@ -53,8 +63,11 @@ flag GameText::gtCase1(BasicFunctions* bFunctions)
 {
 
     bFunctions->SetCursor_GameText();
+
     bFunctions->PrintString("- Scene One", true);
+
     bFunctions->PrintString("How Does Your Game Play?");
+
 
     return false;
 
@@ -64,8 +77,11 @@ flag GameText::gtCase2(BasicFunctions* bFunctions)
 {
 
     bFunctions->SetCursor_GameText();
+
     bFunctions->PrintString("- Scene Three", true);
+
     bFunctions->PrintString("How Does Your Game End?");
+
 
     return false;
 

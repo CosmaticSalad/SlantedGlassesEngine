@@ -10,12 +10,15 @@ void Scene::Init()
 
 flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
 {
+
     bFunctions->bFlickerSleep();
+
     hasMenu = false;
 
     switch (scene)
     {
-    case 0:
+
+    case (uint)0:
 
         bUI.PrintScene_UI(bFunctions, scene);
 
@@ -25,7 +28,7 @@ flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
 
         break;
 
-    case 1:
+    case (uint)1:
 
         bUI.PrintScene_UI(bFunctions, scene);
 
@@ -35,7 +38,7 @@ flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
 
         break;
 
-    case 2:
+    case (uint)2:
 
         bUI.PrintScene_UI(bFunctions, scene);
 
@@ -44,6 +47,7 @@ flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
         hasMenu = bGameText.PrintScene_GameText(bFunctions, scene, userInput);
 
         break;
+
     default:
 
         break;
