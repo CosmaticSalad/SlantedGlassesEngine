@@ -16,21 +16,32 @@ typedef float floatyfloat;
 
 typedef unsigned char uchar;
 
+typedef unsigned char UCHAR;        //UCHAR Data Access Functions Do Not Exist
+
 typedef unsigned int uint;
 
 typedef unsigned int UINT;
 
 typedef std::string string;
 
+typedef std::string STRING;
+
 
 struct BasicFunctions
 {
+
     HANDLE hstdOUT;
+
+
     COORD CursorPosition;
+
+
  
     void Init();
 
     void PrintString(string phrase, flag skipLine = false, uint number = (uint)0);
+
+    void PrintText(uchar* phrase, uint size, flag skipLine = false);
 
     void PrintBorder();
 

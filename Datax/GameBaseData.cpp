@@ -115,6 +115,26 @@ void BasicFunctions::PrintString(string phrase, flag skipLine, uint number)
     }
 }
 
+void BasicFunctions::PrintText(uchar* phrase, uint size, flag skipLine)
+{
+
+    for (uint i = (uint)0; i < (uint)size; i++)
+    {
+
+        std::cout << phrase[i];
+
+    }
+
+
+    if (skipLine)
+    {
+
+        SetCursor_IncrementY((uint)2);
+
+    }
+
+}
+
 void BasicFunctions::PrintBorder()
 {
 

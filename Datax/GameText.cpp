@@ -8,6 +8,14 @@
 bool GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uchar& pInput)
 {
 
+    testTest = new UCHAR[(uint)4];
+
+    testTest[0] = 'A';
+    testTest[1] = 'a';
+    testTest[2] = 'B';
+    testTest[3] = 'b';
+
+
     flag needMenu = false;
 
 
@@ -18,11 +26,20 @@ bool GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uch
 
         needMenu = gtCase0(bFunctions);
 
+        bFunctions->SetCursor_IncrementY();
+
+        
+
+        bFunctions->PrintText(testTest,(uint)4, true);
+
+
         break;
 
     case (uint)1:
 
         needMenu = gtCase1(bFunctions);
+
+        bFunctions->PrintText(testTest, (uint)4, true);
 
         break;
 
@@ -30,6 +47,8 @@ bool GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uch
 
 
         needMenu = gtCase2(bFunctions);
+
+        bFunctions->PrintText(testTest, (uint)4, true);
 
         break;
 
@@ -64,7 +83,7 @@ flag GameText::gtCase1(BasicFunctions* bFunctions)
 
     bFunctions->SetCursor_GameText();
 
-    bFunctions->PrintString("- Scene One", true);
+    bFunctions->PrintString("- Scene Two", true);
 
     bFunctions->PrintString("How Does Your Game Play?");
 

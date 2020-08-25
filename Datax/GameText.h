@@ -6,6 +6,9 @@ struct BasicFunctions;
 struct GameText
 {
 
+    uchar* testTest;
+
+
     flag PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uchar& pInput);
     flag gtCase0(BasicFunctions* bFunctions);
     flag gtCase1(BasicFunctions* bFunctions);
