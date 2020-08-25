@@ -12,6 +12,8 @@ class CrewMember;
 
 typedef bool flag;
 
+typedef bool FLAG;
+
 typedef float floatyfloat;
 
 typedef unsigned char uchar;
@@ -39,13 +41,15 @@ struct BasicFunctions
  
     void Init();
 
-    void PrintString(string phrase, flag skipLine = false, uint number = (uint)0);
+    void PrintString(string phrase, FLAG skipLine = false, uint number = (uint)0);
 
-    void PrintText(uchar* phrase, uint size, flag skipLine = false);
+    void PrintText(const UCHAR* phrase, UINT size, FLAG skipLine = false);
+
+    void PrintChar(UCHAR Character);
 
     void PrintBorder();
 
-    uint RandomNumber(uint range, uint domain = (uint)0);
+    UINT RandomNumber(UINT range, UINT domain = (uint)0);
 
     void bFlickerSleep();
 
@@ -55,9 +59,9 @@ struct BasicFunctions
 
     void bTitleSleep();
 
-    void SetCursor(uint x, uint y);
+    void SetCursor(UINT x, UINT y);
 
-    void SetCursor_IncrementY(uint yIncrement = (uint)2);
+    void SetCursor_IncrementY(UINT yIncrement = (uint)2);
 
     void SetCursor_UI_Left();
 

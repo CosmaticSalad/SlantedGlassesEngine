@@ -32,8 +32,15 @@ int main()
 
     gScene.Init();
 
+    gScene.bGameText.InitText();
+
+    gScene.bUI.InitText();
+
     do
     {
+
+        gScene.bFunctions.bClear();
+
 
         PrintScene(scene, MenuInput);
 

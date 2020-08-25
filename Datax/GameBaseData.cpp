@@ -1,7 +1,9 @@
 
+
 #include "GameBaseData.h"
 
-uint BasicFunctions::RandomNumber(uint range, uint domain)
+
+uint BasicFunctions::RandomNumber(UINT range, UINT domain)
 {
 
     uint HelloWorld = (uint)1000;
@@ -91,7 +93,7 @@ void BasicFunctions::Init()
 
 }
 
-void BasicFunctions::PrintString(string phrase, flag skipLine, uint number)
+void BasicFunctions::PrintString(string phrase, FLAG skipLine, uint number)
 {
 
     if (number > 0)
@@ -115,7 +117,7 @@ void BasicFunctions::PrintString(string phrase, flag skipLine, uint number)
     }
 }
 
-void BasicFunctions::PrintText(uchar* phrase, uint size, flag skipLine)
+void BasicFunctions::PrintText(const UCHAR* phrase, UINT size, FLAG skipLine)
 {
 
     for (uint i = (uint)0; i < (uint)size; i++)
@@ -135,6 +137,13 @@ void BasicFunctions::PrintText(uchar* phrase, uint size, flag skipLine)
 
 }
 
+void BasicFunctions::PrintChar(UCHAR Character)
+{
+
+    std::cout << Character;
+
+}
+
 void BasicFunctions::PrintBorder()
 {
 
@@ -144,13 +153,13 @@ void BasicFunctions::PrintBorder()
     for (uint i = (uint)0; i < (uint)116; i++)
     {
 
-        PrintString("8");
+        PrintChar((uint)233);
 
     }
 
 }
 
-void BasicFunctions::SetCursor(uint x, uint y)
+void BasicFunctions::SetCursor(UINT x, UINT y)
 {
 
     CursorPosition.X = x;
@@ -162,7 +171,7 @@ void BasicFunctions::SetCursor(uint x, uint y)
 
 }
 
-void BasicFunctions::SetCursor_IncrementY(uint yIncrement)
+void BasicFunctions::SetCursor_IncrementY(UINT yIncrement)
 {
 
     CursorPosition.Y += yIncrement;
