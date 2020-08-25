@@ -6,17 +6,17 @@ struct BasicFunctions;
 struct GameText
 {
 
-    UCHAR* Gametext_CASE_ZERO_Text_Zero;
+    CHARSTRING Gametext_CASE_ZERO_Text_Zero;
 
-    UCHAR* Gametext_CASE_ZERO_Text_ONE;
+    CHARSTRING Gametext_CASE_ZERO_Text_ONE;
 
-    UCHAR* Gametext_CASE_ONE_Text_Zero;
+    CHARSTRING Gametext_CASE_ONE_Text_Zero;
 
-    UCHAR* Gametext_CASE_ONE_Text_ONE;
+    CHARSTRING Gametext_CASE_ONE_Text_ONE;
 
-    UCHAR* Gametext_CASE_TWO_Text_Zero;
+    CHARSTRING Gametext_CASE_TWO_Text_Zero;
 
-    UCHAR* Gametext_CASE_TWO_Text_ONE;
+    CHARSTRING Gametext_CASE_TWO_Text_ONE;
 
     void InitText();
 

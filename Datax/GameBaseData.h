@@ -16,7 +16,6 @@
 
 
 
-class CrewMember;
 
 typedef bool flag;
 
@@ -84,4 +83,11 @@ struct BasicFunctions
     void SetCursor_Pause();
 
     void SetCursor_SleepText();
+};
+
+struct CHARSTRING
+{
+
+    UCHAR* String;
+
 };

@@ -4,11 +4,11 @@ struct BasicFunctions;
 
 struct UI
 {
-    UCHAR* UItext_Text_ONE;
+    CHARSTRING UItext_Text_ONE;
 
-    UCHAR* UItext_Text_TWO;
+    CHARSTRING UItext_Text_TWO;
 
-    UCHAR* UItext_Text_THREE;
+    CHARSTRING UItext_Text_THREE;
 
     void InitText();
 
