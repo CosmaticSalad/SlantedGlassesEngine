@@ -6,46 +6,15 @@
 uint BasicFunctions::RandomNumber(UINT range, UINT domain)
 {
 
-    uint HelloWorld = (uint)1000;
+    HelloWorld = (uint)0;
+    
+    LocalRange = range;
+    
+    LocalDomain = domain;
 
-    uint LOCalRange = (uint)100;
+    HelloWorld = rand()%LocalRange;
 
-    uint LocalDomain = domain * (uint)1000;
-
-
-
-    do
-    {
-
-        HelloWorld = rand() % 1000;
-
-        LOCalRange = 1000 / range;
-
-        if (domain > 0)
-        {
-
-            LocalDomain = 1000 / domain;
-
-        }
-
-        HelloWorld /= LOCalRange;
-
-        HelloWorld += LocalDomain;
-
-
-    } while (HelloWorld >  ((range + domain) - (uint) 1) || HelloWorld < (uint) 0);
-
-    if (domain == (uint)0)
-    {
-
-        while (HelloWorld >= range)
-        {
-
-            HelloWorld--;
-
-        }
-
-    }
+    HelloWorld += LocalDomain;
 
     return HelloWorld;
 

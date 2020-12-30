@@ -41,10 +41,13 @@ struct BasicFunctions
 
     HANDLE hstdOUT;
 
-
     COORD CursorPosition;
 
+    uint HelloWorld;
 
+    uint LocalRange;
+
+    uint LocalDomain;
  
     void Init();
 
