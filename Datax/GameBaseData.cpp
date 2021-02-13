@@ -60,6 +60,8 @@ void BasicFunctions::Init()
 
     hstdOUT = GetStdHandle(STD_OUTPUT_HANDLE);
 
+    pTime = new SYSTEMTIME;
+
 }
 
 void BasicFunctions::PrintString(string phrase, FLAG skipLine, uint number)
@@ -125,6 +127,15 @@ void BasicFunctions::PrintBorder()
         PrintChar((uint)233);
 
     }
+
+}
+
+void BasicFunctions::SeedTrueRandom()
+{
+
+    GetLocalTime(pTime);
+
+    srand((uint)pTime->wMilliseconds);
 
 }
 

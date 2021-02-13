@@ -5,6 +5,12 @@
 #include"windows.h"
 
 
+#include<minwinbase.h>
+
+
+#include<sysinfoapi.h>
+
+
 #include<string>
 
 
@@ -43,6 +49,9 @@ struct BasicFunctions
 
     COORD CursorPosition;
 
+    SYSTEMTIME* pTime;
+
+
     uint HelloWorld;
 
     uint LocalRange;
@@ -58,6 +67,8 @@ struct BasicFunctions
     void PrintChar(UCHAR Character);
 
     void PrintBorder();
+
+    void SeedTrueRandom();
 
     UINT RandomNumber(UINT range, UINT domain = (uint)0);
 
