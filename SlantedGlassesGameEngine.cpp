@@ -54,7 +54,7 @@ int main()
         else
         {
 
-            gScene.bFunctions.bFlickerSleep();
+           // gScene.bFunctions.bFlickerSleep();
 
             gScene.bFunctions.bPause();
 

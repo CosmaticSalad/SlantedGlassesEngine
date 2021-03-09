@@ -35,7 +35,7 @@ void BasicFunctions::bFlickerSleep()
 void BasicFunctions::bPause()
 {
 
-    SetCursor((uint)28, (uint)30);
+    SetCursor_Pause();
 
     system("pause");
 
@@ -163,7 +163,7 @@ void BasicFunctions::SetCursor_IncrementY(UINT yIncrement)
 void BasicFunctions::SetCursor_UI_Left()
 {
 
-    CursorPosition.X = (uint)3;
+    CursorPosition.X = (uint)6;
 
     CursorPosition.Y = (uint)3;
 
@@ -175,7 +175,7 @@ void BasicFunctions::SetCursor_UI_Left()
 void BasicFunctions::SetCursor_UI_Center()
 {
 
-    CursorPosition.X = (uint)30;
+    CursorPosition.X = (uint)18;
 
     CursorPosition.Y = (uint)3;
 
@@ -211,9 +211,9 @@ void BasicFunctions::SetCursor_MidLine()
 void BasicFunctions::SetCursor_GameText()
 {
 
-    CursorPosition.X = (uint)28;
+    CursorPosition.X = (uint)18;
 
-    CursorPosition.Y = (uint)15;
+    CursorPosition.Y = (uint)18;
 
 
     SetConsoleCursorPosition(hstdOUT, CursorPosition);
@@ -223,7 +223,7 @@ void BasicFunctions::SetCursor_GameText()
 void BasicFunctions::SetCursor_Pause()
 {
 
-    CursorPosition.X = (uint)28;
+    CursorPosition.X = (uint)0;
 
     CursorPosition.Y = (uint)30;
 
