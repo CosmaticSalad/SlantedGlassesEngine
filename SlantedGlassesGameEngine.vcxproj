@@ -154,14 +154,10 @@
     <ClCompile Include="SlantedGlassesGameEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Datax\GameBaseData.h" />
-    <ClInclude Include="Datax\GameText.h" />
-    <ClInclude Include="Datax\Scene.h" />
     <ClInclude Include="Datax\SlantedGlasses_GameBaseData.h" />
     <ClInclude Include="Datax\SlantedGlasses_GameText.h" />
     <ClInclude Include="Datax\SlantedGlasses_Scene.h" />
     <ClInclude Include="Datax\SlantedGlasses_UI.h" />
-    <ClInclude Include="Datax\UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

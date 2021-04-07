@@ -143,14 +143,14 @@ void GameText::InitText()
     Gametext_CASE_TWO_Text_ONE.String[20] = 'N';
     Gametext_CASE_TWO_Text_ONE.String[21] = 'D';
     Gametext_CASE_TWO_Text_ONE.String[22] = ' ';
-    Gametext_CASE_TWO_Text_ONE.String[15] = 'O';
-    Gametext_CASE_TWO_Text_ONE.String[16] = 'r';
-    Gametext_CASE_TWO_Text_ONE.String[17] = ' ';
-    Gametext_CASE_TWO_Text_ONE.String[18] = 'L';
-    Gametext_CASE_TWO_Text_ONE.String[19] = 'o';
-    Gametext_CASE_TWO_Text_ONE.String[20] = 'o';
-    Gametext_CASE_TWO_Text_ONE.String[21] = 'p';
-    Gametext_CASE_TWO_Text_ONE.String[22] = '?';
+    Gametext_CASE_TWO_Text_ONE.String[23] = 'O';
+    Gametext_CASE_TWO_Text_ONE.String[24] = 'r';
+    Gametext_CASE_TWO_Text_ONE.String[25] = ' ';
+    Gametext_CASE_TWO_Text_ONE.String[26] = 'L';
+    Gametext_CASE_TWO_Text_ONE.String[27] = 'o';
+    Gametext_CASE_TWO_Text_ONE.String[28] = 'o';
+    Gametext_CASE_TWO_Text_ONE.String[29] = 'p';
+    Gametext_CASE_TWO_Text_ONE.String[30] = '?';
 
 }
 

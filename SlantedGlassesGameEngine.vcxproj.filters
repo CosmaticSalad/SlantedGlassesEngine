@@ -35,18 +35,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Datax\GameBaseData.h">
-      <Filter>Source Files\Game Base Data</Filter>
-    </ClInclude>
-    <ClInclude Include="Datax\GameText.h">
-      <Filter>Source Files\Game Base Data</Filter>
-    </ClInclude>
-    <ClInclude Include="Datax\UI.h">
-      <Filter>Source Files\Game Base Data</Filter>
-    </ClInclude>
-    <ClInclude Include="Datax\Scene.h">
-      <Filter>Source Files\Game Base Data</Filter>
-    </ClInclude>
     <ClInclude Include="Datax\SlantedGlasses_GameBaseData.h">
       <Filter>Source Files\Game Base Data</Filter>
     </ClInclude>
