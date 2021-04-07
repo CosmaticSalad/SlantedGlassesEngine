@@ -13,9 +13,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\Game Objects">
-      <UniqueIdentifier>{83985f2e-9399-4922-9e5c-026e3317d28b}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source Files\Game Base Data">
       <UniqueIdentifier>{2656e510-2fc4-4f9f-a2bd-8d3191356d88}</UniqueIdentifier>
     </Filter>
@@ -24,16 +21,16 @@
     <ClCompile Include="SlantedGlassesGameEngine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Datax\GameBaseData.cpp">
+    <ClCompile Include="Datax\SlantedGlasses_GameBaseData.cpp">
       <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
-    <ClCompile Include="Datax\GameText.cpp">
+    <ClCompile Include="Datax\SlantedGlasses_GameText.cpp">
       <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
-    <ClCompile Include="Datax\UI.cpp">
+    <ClCompile Include="Datax\SlantedGlasses_Scene.cpp">
       <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
-    <ClCompile Include="Datax\Scene.cpp">
+    <ClCompile Include="Datax\SlantedGlasses_UI.cpp">
       <Filter>Source Files\Game Base Data</Filter>
     </ClCompile>
   </ItemGroup>
@@ -48,6 +45,18 @@
       <Filter>Source Files\Game Base Data</Filter>
     </ClInclude>
     <ClInclude Include="Datax\Scene.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\SlantedGlasses_GameBaseData.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\SlantedGlasses_GameText.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\SlantedGlasses_Scene.h">
+      <Filter>Source Files\Game Base Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Datax\SlantedGlasses_UI.h">
       <Filter>Source Files\Game Base Data</Filter>
     </ClInclude>
   </ItemGroup>

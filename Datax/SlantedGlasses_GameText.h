@@ -1,4 +1,6 @@
+
 #pragma once
+
 
 struct BasicFunctions;
 
@@ -21,11 +23,11 @@ struct GameText
     void InitText();
 
     FLAG PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uchar& pInput);
-    
+
     FLAG gtCase0(BasicFunctions* bFunctions);
-    
+
     FLAG gtCase1(BasicFunctions* bFunctions);
-    
+
     FLAG gtCase2(BasicFunctions* bFunctions);
 
 };

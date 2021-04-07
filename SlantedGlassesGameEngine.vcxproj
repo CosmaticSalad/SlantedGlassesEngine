@@ -147,16 +147,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Datax\GameBaseData.cpp" />
-    <ClCompile Include="Datax\GameText.cpp" />
-    <ClCompile Include="Datax\Scene.cpp" />
-    <ClCompile Include="Datax\UI.cpp" />
+    <ClCompile Include="Datax\SlantedGlasses_GameBaseData.cpp" />
+    <ClCompile Include="Datax\SlantedGlasses_GameText.cpp" />
+    <ClCompile Include="Datax\SlantedGlasses_Scene.cpp" />
+    <ClCompile Include="Datax\SlantedGlasses_UI.cpp" />
     <ClCompile Include="SlantedGlassesGameEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Datax\GameBaseData.h" />
     <ClInclude Include="Datax\GameText.h" />
     <ClInclude Include="Datax\Scene.h" />
+    <ClInclude Include="Datax\SlantedGlasses_GameBaseData.h" />
+    <ClInclude Include="Datax\SlantedGlasses_GameText.h" />
+    <ClInclude Include="Datax\SlantedGlasses_Scene.h" />
+    <ClInclude Include="Datax\SlantedGlasses_UI.h" />
     <ClInclude Include="Datax\UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,7 +1,7 @@
 
-#include"Datax/GameBaseData.h"
+#include"Datax/SlantedGlasses_GameBaseData.h"
 
-#include"Datax/Scene.h"
+#include"Datax/SlantedGlasses_Scene.h"
 
 
 Scene gScene;

@@ -1,7 +1,7 @@
 
-#include"GameBaseData.h"
+#include"SlantedGlasses_GameBaseData.h"
 
-#include "GameText.h"
+#include "SlantedGlasses_GameText.h"
 
 
 
@@ -50,8 +50,8 @@ void GameText::InitText()
     Gametext_CASE_ZERO_Text_ONE.String[22] = 'I';
     Gametext_CASE_ZERO_Text_ONE.String[23] = 'N';
     Gametext_CASE_ZERO_Text_ONE.String[24] = '?';
-   
- 
+
+
 
 
 
@@ -68,7 +68,7 @@ void GameText::InitText()
     Gametext_CASE_ONE_Text_Zero.String[8] = 'T';
     Gametext_CASE_ONE_Text_Zero.String[9] = 'w';
     Gametext_CASE_ONE_Text_Zero.String[10] = 'o';
-        
+
 
     Gametext_CASE_ONE_Text_ONE.String = new UCHAR[(uint)24];
 
@@ -96,29 +96,29 @@ void GameText::InitText()
     Gametext_CASE_ONE_Text_ONE.String[21] = 'a';
     Gametext_CASE_ONE_Text_ONE.String[22] = 'y';
     Gametext_CASE_ONE_Text_ONE.String[23] = '?';
-    
+
 
 
 
     Gametext_CASE_TWO_Text_Zero.String = new UCHAR[(uint)13];
 
-   Gametext_CASE_TWO_Text_Zero.String[0] = '-';
-   Gametext_CASE_TWO_Text_Zero.String[1] = ' ';
-   Gametext_CASE_TWO_Text_Zero.String[2] = 'S';
-   Gametext_CASE_TWO_Text_Zero.String[3] = 'c';
-   Gametext_CASE_TWO_Text_Zero.String[4] = 'e';
-   Gametext_CASE_TWO_Text_Zero.String[5] = 'n';
-   Gametext_CASE_TWO_Text_Zero.String[6] = 'e';
-   Gametext_CASE_TWO_Text_Zero.String[7] = ' ';
-   Gametext_CASE_TWO_Text_Zero.String[8] = 'T';
-   Gametext_CASE_TWO_Text_Zero.String[9] = 'h';
-   Gametext_CASE_TWO_Text_Zero.String[10] = 'r';
-   Gametext_CASE_TWO_Text_Zero.String[11] = 'e';
-   Gametext_CASE_TWO_Text_Zero.String[12] = 'e';
+    Gametext_CASE_TWO_Text_Zero.String[0] = '-';
+    Gametext_CASE_TWO_Text_Zero.String[1] = ' ';
+    Gametext_CASE_TWO_Text_Zero.String[2] = 'S';
+    Gametext_CASE_TWO_Text_Zero.String[3] = 'c';
+    Gametext_CASE_TWO_Text_Zero.String[4] = 'e';
+    Gametext_CASE_TWO_Text_Zero.String[5] = 'n';
+    Gametext_CASE_TWO_Text_Zero.String[6] = 'e';
+    Gametext_CASE_TWO_Text_Zero.String[7] = ' ';
+    Gametext_CASE_TWO_Text_Zero.String[8] = 'T';
+    Gametext_CASE_TWO_Text_Zero.String[9] = 'h';
+    Gametext_CASE_TWO_Text_Zero.String[10] = 'r';
+    Gametext_CASE_TWO_Text_Zero.String[11] = 'e';
+    Gametext_CASE_TWO_Text_Zero.String[12] = 'e';
 
 
 
-   Gametext_CASE_TWO_Text_ONE.String = new UCHAR[(uint)23];
+    Gametext_CASE_TWO_Text_ONE.String = new UCHAR[(uint)31];
 
     Gametext_CASE_TWO_Text_ONE.String[0] = 'H';
     Gametext_CASE_TWO_Text_ONE.String[1] = 'o';
@@ -142,9 +142,15 @@ void GameText::InitText()
     Gametext_CASE_TWO_Text_ONE.String[19] = 'E';
     Gametext_CASE_TWO_Text_ONE.String[20] = 'N';
     Gametext_CASE_TWO_Text_ONE.String[21] = 'D';
+    Gametext_CASE_TWO_Text_ONE.String[22] = ' ';
+    Gametext_CASE_TWO_Text_ONE.String[15] = 'O';
+    Gametext_CASE_TWO_Text_ONE.String[16] = 'r';
+    Gametext_CASE_TWO_Text_ONE.String[17] = ' ';
+    Gametext_CASE_TWO_Text_ONE.String[18] = 'L';
+    Gametext_CASE_TWO_Text_ONE.String[19] = 'o';
+    Gametext_CASE_TWO_Text_ONE.String[20] = 'o';
+    Gametext_CASE_TWO_Text_ONE.String[21] = 'p';
     Gametext_CASE_TWO_Text_ONE.String[22] = '?';
-
-
 
 }
 
@@ -163,7 +169,7 @@ FLAG GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uch
 
         bFunctions->SetCursor_IncrementY();
 
-        
+
 
 
 
@@ -197,7 +203,7 @@ FLAG GameText::PrintScene_GameText(BasicFunctions* bFunctions, uint GTscene, uch
 }
 
 
-FLAG GameText::gtCase0(BasicFunctions* bFunctions )
+FLAG GameText::gtCase0(BasicFunctions* bFunctions)
 {
 
     bFunctions->SetCursor_GameText();
@@ -232,7 +238,7 @@ FLAG GameText::gtCase2(BasicFunctions* bFunctions)
 
     bFunctions->PrintText(Gametext_CASE_TWO_Text_Zero.String, (uint)13, true);
 
-    bFunctions->PrintText(Gametext_CASE_TWO_Text_ONE.String, (uint)23);
+    bFunctions->PrintText(Gametext_CASE_TWO_Text_ONE.String, (uint)31);
 
 
     return false;

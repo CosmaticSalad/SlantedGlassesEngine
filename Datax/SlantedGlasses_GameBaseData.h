@@ -1,3 +1,4 @@
+
 #pragma once
 
 
@@ -57,7 +58,7 @@ struct BasicFunctions
     uint LocalRange;
 
     uint LocalDomain;
- 
+
     void Init();
 
     void PrintString(string phrase, FLAG skipLine = false, uint number = (uint)0);
@@ -105,3 +106,4 @@ struct CHARSTRING
     UCHAR* String;
 
 };
+

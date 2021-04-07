@@ -1,7 +1,10 @@
+
 #pragma once
-#include"GameBaseData.h"
-#include "UI.h"
-#include "GameText.h"
+
+
+#include"SlantedGlasses_GameBaseData.h"
+#include "SlantedGlasses_UI.h"
+#include "SlantedGlasses_GameText.h"
 
 
 struct UI;

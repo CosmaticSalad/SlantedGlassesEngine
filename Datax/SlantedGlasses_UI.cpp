@@ -1,7 +1,7 @@
 
-#include"GameBaseData.h"
+#include"SlantedGlasses_GameBaseData.h"
 
-#include "UI.h"
+#include "SlantedGlasses_UI.h"
 
 
 void UI::InitText()
@@ -84,7 +84,7 @@ void UI::uiCase0(BasicFunctions* bFunctions)
     bFunctions->SetCursor_UI_Center();
 
     bFunctions->PrintText(UItext_Text_TWO.String, (uint)6);
-              
+
     bFunctions->SetCursor_UI_Right();
 
     bFunctions->PrintText(UItext_Text_THREE.String, (uint)8);

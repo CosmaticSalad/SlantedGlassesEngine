@@ -1,18 +1,17 @@
+#include "SlantedGlasses_GameBaseData.h"
 
-
-#include "GameBaseData.h"
 
 
 uint BasicFunctions::RandomNumber(UINT range, UINT domain)
 {
 
     HelloWorld = (uint)0;
-    
+
     LocalRange = range;
-    
+
     LocalDomain = domain;
 
-    HelloWorld = rand()%LocalRange;
+    HelloWorld = rand() % LocalRange;
 
     HelloWorld += LocalDomain;
 
