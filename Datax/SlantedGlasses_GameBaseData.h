@@ -39,7 +39,7 @@ typedef unsigned int uint;
 typedef unsigned int UINT;
 
 typedef std::string string;
-
+ //USE Init_String() to initialise your STRINGS  -   CALL  [BasicFunctions*]->Init_String()  [SemiColon]
 typedef std::string STRING;
 
 
