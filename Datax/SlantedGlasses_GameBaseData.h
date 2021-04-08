@@ -58,6 +58,10 @@ struct BasicFunctions
 
     uint LocalDomain;
 
+    uint FrameRateFluxuator;
+
+    UINT RandomNumber(UINT range, UINT domain = (uint)0);
+
     STRING Init_String();
 
     void Init();
@@ -71,8 +75,6 @@ struct BasicFunctions
     void PrintBorder();
 
     void SeedTrueRandom();
-
-    UINT RandomNumber(UINT range, UINT domain = (uint)0);
 
     void bFlickerSleep();
 

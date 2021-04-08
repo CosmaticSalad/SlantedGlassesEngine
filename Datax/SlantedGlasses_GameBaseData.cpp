@@ -22,7 +22,7 @@ uint BasicFunctions::RandomNumber(UINT range, UINT domain)
 void BasicFunctions::bFlickerSleep()
 {
 
-    uint FrameRateFluxuator = (uint)0;
+    FrameRateFluxuator = (uint)0;
 
     FrameRateFluxuator += RandomNumber((uint)64, (uint)128);
 
