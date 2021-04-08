@@ -54,6 +54,11 @@ void BasicFunctions::bTitleSleep()
 
 }
 
+STRING BasicFunctions::Init_String()
+{
+    return "---------------blanc---------------";
+}
+
 void BasicFunctions::Init()
 {
 

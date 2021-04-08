@@ -52,12 +52,13 @@ struct BasicFunctions
 
     SYSTEMTIME* pTime;
 
-
     uint HelloWorld;
 
     uint LocalRange;
 
     uint LocalDomain;
+
+    STRING Init_String();
 
     void Init();
 
