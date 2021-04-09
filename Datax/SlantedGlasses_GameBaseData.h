@@ -64,6 +64,8 @@ struct BasicFunctions
 
     STRING Init_String();
 
+    STRING Init_String_Phrase();
+
     void Init();
 
     void PrintString(string phrase, FLAG skipLine = false, uint number = (uint)0);
