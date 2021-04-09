@@ -1,5 +1,4 @@
 
-#pragma once
 
 
 #include"SlantedGlasses_GameBaseData.h"
@@ -16,11 +15,11 @@ struct Scene
 
     UI bUI;
     GameText bGameText;
-    BasicFunctions bFunctions;
+    
 
     flag hasMenu;
 
-    void Init();
+  
 
     flag PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput);
 };

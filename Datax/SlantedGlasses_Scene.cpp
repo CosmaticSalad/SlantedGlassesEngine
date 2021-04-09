@@ -1,13 +1,8 @@
+#pragma once 
+
 #include "SlantedGlasses_Scene.h"
 
 
-
-void Scene::Init()
-{
-
-    bFunctions.Init();
-
-}
 
 flag Scene::PrintScene(BasicFunctions* bFunctions, uint scene, uchar& userInput)
 {

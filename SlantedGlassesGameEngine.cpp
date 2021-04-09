@@ -4,6 +4,8 @@
 #include"Datax/SlantedGlasses_Scene.h"
 
 
+BasicFunctions bFunctions;
+
 Scene gScene;
 
 flag isGame = true;
@@ -30,7 +32,7 @@ void HandleInput();
 int main()
 {
 
-    gScene.Init();
+    //gScene.Init();
 
     gScene.bGameText.InitText();
 
@@ -39,7 +41,7 @@ int main()
     do
     {
 
-        gScene.bFunctions.bClear();
+        bFunctions.bClear();
 
 
         PrintScene(scene, MenuInput);
@@ -54,9 +56,9 @@ int main()
         else
         {
 
-           // gScene.bFunctions.bFlickerSleep();
+           // bFunctions.bFlickerSleep();
 
-            gScene.bFunctions.bPause();
+            bFunctions.bPause();
 
         }
 
@@ -90,15 +92,15 @@ void PrintScene(uint scene, uchar& input)
     {
 
     case 0:
-        isMenu = gScene.PrintScene(&gScene.bFunctions, scene, input);
+        isMenu = gScene.PrintScene(&bFunctions, scene, input);
         break;
 
     case 1:
-        isMenu = gScene.PrintScene(&gScene.bFunctions, scene, input);
+        isMenu = gScene.PrintScene(&bFunctions, scene, input);
         break;
         
     case 2:
-        isMenu = gScene.PrintScene(&gScene.bFunctions, scene, input);
+        isMenu = gScene.PrintScene(&bFunctions, scene, input);
         break;
 
     }
@@ -107,6 +109,6 @@ void PrintScene(uint scene, uchar& input)
 
 void HandleInput()
 {
-    gScene.bFunctions.SetCursor_Pause();
+    bFunctions.SetCursor_Pause();
     std::cin >> MenuInput;
 }

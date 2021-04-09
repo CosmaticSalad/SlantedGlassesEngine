@@ -1,6 +1,4 @@
-
-#pragma once
-
+#pragma once 
 
 
 #include"windows.h"
@@ -52,15 +50,15 @@ struct BasicFunctions
 
     SYSTEMTIME* pTime;
 
-    uint HelloWorld;
+    UINT HelloWorld;
 
-    uint LocalRange;
+    UINT LocalRange;
 
-    uint LocalDomain;
+    UINT LocalDomain;
 
-    uint FrameRateFluxuator;
+    UINT FrameRateFluxuator;
 
-    UINT RandomNumber(UINT range, UINT domain = (uint)0);
+    UINT RandomNumber(uint range, uint domain = (uint)0);
 
     STRING Init_String();
 
@@ -70,9 +68,9 @@ struct BasicFunctions
 
     void PrintString(string phrase, FLAG skipLine = false, uint number = (uint)0);
 
-    void PrintText(const UCHAR* phrase, UINT size, FLAG skipLine = false);
+    void PrintText(const UCHAR* phrase, uint size, flag skipLine = false);
 
-    void PrintChar(UCHAR Character);
+    void PrintChar(uchar Character);
 
     void PrintBorder();
 
@@ -86,9 +84,9 @@ struct BasicFunctions
 
     void bTitleSleep();
 
-    void SetCursor(UINT x, UINT y);
+    void SetCursor(uint x, uint y);
 
-    void SetCursor_IncrementY(UINT yIncrement = (uint)2);
+    void SetCursor_IncrementY(uint yIncrement = (uint)2);
 
     void SetCursor_UI_Left();
 
