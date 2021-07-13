@@ -1,3 +1,6 @@
 # Slanted Glasses Game Engine
-Simple Game Engine To Create Text Based Console Games
+Simple Game Engine To Create Text Based ASCII Games
 
+Lanch: SLANTEDGLASSESGAMEENGINE.VCXPROJ
+
+ENJOY CODING !!

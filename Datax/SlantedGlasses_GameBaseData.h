@@ -36,9 +36,12 @@ typedef unsigned int uint;
 
 typedef unsigned int UINT;
 
+//USE Init_String() to initialise your STRINGS  -   CALL  [BasicFunctions*]->Init_String()  AFTER A STRING DECLARATION [returns String]
+
 typedef std::string string;
- //USE Init_String() to initialise your STRINGS  -   CALL  [BasicFunctions*]->Init_String()  [SemiColon]
+
 typedef std::string STRING;
+
 
 
 struct BasicFunctions
