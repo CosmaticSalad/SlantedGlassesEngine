@@ -73,6 +73,11 @@ void BasicFunctions::Init()
 
 }
 
+void BasicFunctions::Delete_System_Time()
+{
+    pTime = nullptr;
+}
+
 void BasicFunctions::PrintString(string phrase, FLAG skipLine, uint number)
 {
 

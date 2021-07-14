@@ -31,6 +31,7 @@ void HandleInput();
 
 int main()
 {
+    bFunctions.Init();
 
     //gScene.Init();
 
@@ -72,6 +73,8 @@ int main()
         }
 
     } while (isGame);
+
+    bFunctions.Delete_System_Time();
 
     return 0;
 

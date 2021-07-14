@@ -1,7 +1,7 @@
 #pragma once 
 
 
-#include"windows.h"
+#include<windows.h>
 
 
 #include<minwinbase.h>
@@ -68,6 +68,8 @@ struct BasicFunctions
     STRING Init_String_Phrase();
 
     void Init();
+
+    void Delete_System_Time();
 
     void PrintString(string phrase, FLAG skipLine = false, uint number = (uint)0);
 
